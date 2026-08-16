@@ -1,0 +1,12 @@
+# Geolocation module (photo_geolocation.py)
+numpy>=1.21
+opencv-python>=4.5
+
+# Cirrus classifier (cirrus_classifier.py) additionally requires:
+# TensorFlow 2.13.1, the version the classifier was developed and run in.
+# model.save(..., include_optimizer=False) and keras.optimizers.SGD(weight_decay=...)
+# may fail to run the code unchanged in other versions.
+tensorflow==2.13.1
+scikit-learn>=1.0
+pillow>=9.0
+matplotlib>=3.5
